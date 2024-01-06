@@ -10,6 +10,8 @@ We have made improvements using 2 approaches:
 1. Greedy Distribution-Aware Sharding: In the branch named "Approach1"
 2. Clustering similar data points: In the branch named "Approach2"
 
+![SISA approach](SISA_Approach.png)
+
 You can start running experiments by having a look at the readme in the purchase example folder at ``example-scripts/purchase-sharding``.
 
 ``sisa.py`` is the script that trains a given shard. It should be run as many times as the number of shards.
